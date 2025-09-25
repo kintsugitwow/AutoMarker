@@ -2213,8 +2213,8 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_upper_demon_3", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_inner_1", {
-  ["0xF13000F1F0276B4A"] = CROSS,
-  ["0xF13000F1F1276B46"] = SKULL,
+  ["0xF13000F1F0276B4A"] = SKULL, -- Shadowclaw Darkbringer
+  ["0xF13000F1F1276B46"] = CROSS, -- Shadowclaw Worgen
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "gnarlmoon_owls", {
@@ -2388,16 +2388,16 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_patrols", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_2", {
-  ["0xF13000F204276D36"] = SKULL, -- Lingering Astrologist
-  ["0xF13000F203276D37"] = SQUARE, -- Lingering Arcanist
-  ["0xF13000F202276D35"] = CROSS, -- Lingering Magus
+  ["0xF13000F204276D36"] = CROSS, -- Lingering Astrologist
+  ["0xF13000F203276D37"] = SKULL, -- Lingering Arcanist
+  ["0xF13000F202276D35"] = MOON, -- Lingering Magus
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_left", {
-  ["0xF13000F202276D38"] = CROSS, -- Lingering Magus
-  ["0xF13000F205276D39"] = MOON, -- Lingering Enchanter
-  ["0xF13000F202276D3A"] = SQUARE, -- 0xF13000F202276D3A
-  ["0xF13000F204276D3B"] = SKULL, -- 0xF13000F204276D3B
+  ["0xF13000F202276D38"] = STAR, -- Lingering Magus
+  ["0xF13000F205276D39"] = SQUARE, -- Lingering Enchanter
+  ["0xF13000F202276D3A"] = SKULL, -- Lingering Magus
+  ["0xF13000F204276D3B"] = CROSS, -- Lingering Astrologist
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_3", {
@@ -2407,19 +2407,19 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_3", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_6", {
-  ["0xF13000F200276D68"] = SQUARE,
-  ["0xF13000F203276D52"] = CROSS,
-  ["0xF13000F201276D66"] = TRIANGLE,
-  ["0xF13000F202276D51"] = SKULL,
-  ["0xF13000F201276D67"] = MOON,
+  ["0xF13000F200276D68"] = SQUARE, -- Crumbling Protector
+  ["0xF13000F203276D52"] = CROSS, -- Lingering Magus
+  ["0xF13000F201276D66"] = TRIANGLE, -- Karazhan Protector Golem
+  ["0xF13000F202276D51"] = SKULL, -- Lingering Arcanist
+  ["0xF13000F201276D67"] = MOON, -- Karazhan Protector Golem
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_1", {
-  ["0xF13000F203276D2F"] = MOON, -- Lingering Arcanist
-  ["0xF13000F205276D33"] = TRIANGLE, -- Lingering Arcanist
-  ["0xF13000F204276D32"] = SKULL, -- Lingering Astrologist
-  ["0xF13000F202276D31"] = CROSS, -- Lingering Magus
-  ["0xF13000F202276D30"] = SQUARE, -- Lingering Magus
+  ["0xF13000F203276D2F"] = SKULL, -- Lingering Arcanist
+  ["0xF13000F205276D33"] = SQUARE, -- Lingering Enchanter
+  ["0xF13000F204276D32"] = CROSS, -- Lingering Astrologist
+  ["0xF13000F202276D31"] = MOON, -- Lingering Magus
+  ["0xF13000F202276D30"] = STAR, -- Lingering Magus
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_2_1", {
@@ -2429,10 +2429,10 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_2_1", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_2_2", {
-  ["0xF13000F200276D63"] = SQUARE, -- Crumbling Protector
-  ["0xF13000F204276D2B"] = SKULL, -- Lingering Astrologist
-  ["0xF13000F205276D2C"] = MOON, -- Lingering Enchanter
-  ["0xF13000F203276D2D"] = CROSS, -- Lingering Arcanist
+  ["0xF13000F200276D63"] = MOON, -- Crumbling Protector
+  ["0xF13000F204276D2B"] = CROSS, -- Lingering Astrologist
+  ["0xF13000F205276D2C"] = SQUARE, -- Lingering Enchanter
+  ["0xF13000F203276D2D"] = SKULL, -- Lingering Arcanist
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_chess_1", {
@@ -2451,9 +2451,9 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_chess_2", {
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_chess_3", {
   ["0xF13000F201276D66"] = TRIANGLE, -- Karazhan Protector Golem
-  ["0xF13000F203276D52"] = CROSS, -- Lingering Arcanist
+  ["0xF13000F203276D52"] = SKULL, -- Lingering Arcanist
   ["0xF13000F201276D67"] = MOON, -- Karazhan Protector Golem
-  ["0xF13000F202276D51"] = SKULL, -- Lingering Magus
+  ["0xF13000F202276D51"] = CROSS, -- Lingering Magus
   ["0xF13000F200276D68"] = SQUARE, -- Crumbling Protector
 })
 
@@ -2468,16 +2468,16 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_chess", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_1", {
-  ["0xF13000F203276D54"] = SQUARE, -- Lingering Arcanist
-  ["0xF13000F205276D55"] = MOON, -- Lingering Enchanter
-  ["0xF13000F202276D53"] = SKULL, -- Lingering Magus
+  ["0xF13000F203276D54"] = SKULL, -- Lingering Arcanist
+  ["0xF13000F205276D55"] = SQUARE, -- Lingering Enchanter
+  ["0xF13000F202276D53"] = STAR, -- Lingering Magus
   ["0xF13000F204276D56"] = CROSS, -- Lingering Astrologist
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_2", {
-  ["0xF13000F202276D57"] = SKULL, -- Lingering Magus
-  ["0xF13000F205276D5A"] = MOON, -- Lingering Enchanter
-  ["0xF13000F203276D5B"] = SQUARE, -- Lingering Arcanist
+  ["0xF13000F202276D57"] = STAR, -- Lingering Magus
+  ["0xF13000F205276D5A"] = SQUARE, -- Lingering Enchanter
+  ["0xF13000F203276D5B"] = SKULL, -- Lingering Arcanist
   ["0xF13000F204276D58"] = CROSS, -- Lingering Astrologist
 })
 
@@ -2496,6 +2496,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_upper_demon_1", {
   ["0xF13000F48D278726"] = CROSS, -- destroyer
   ["0xF13000F48C278725"] = DIAMOND, -- invader
   ["0xF13000F48C278724"] = SKULL, -- invader
+  ["0xF13000F48D278716"] = CIRCLE, -- destroyer
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_upper_demon_2", {
@@ -2618,9 +2619,9 @@ addToDefaultNpcsToMark(L["The Rock of Desolation"], "outland_patrols", {
 })
 
 addToDefaultNpcsToMark(L["The Rock of Desolation"], "pre_kruul_1", {
-  ["0xF13000F240276D11"] = CROSS, -- Doomguard Annihilator
-  ["0xF13000F240276D10"] = SQUARE, -- Doomguard Annihilator
-  ["0xF13000F243276D0F"] = SKULL, -- Warbringer Overseer
+  ["0xF13000F240276D11"] = SKULL, -- Doomguard Annihilator
+  ["0xF13000F240276D10"] = CROSS, -- Doomguard Annihilator
+  ["0xF13000F243276D0F"] = SQUARE, -- Warbringer Overseer
 })
 
 addToDefaultNpcsToMark(L["The Rock of Desolation"], "pre_kruul_2", {

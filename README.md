@@ -2,6 +2,7 @@
 AutoMarker for [SuperWow](https://github.com/balakethelock/SuperWoW/) on the 1.12 client.
 
 * Default values are (so far) calibrated for Turtle WoW specifically.
+
 ___
 
 * Hold `shift then ctrl or alt` and mouseover a mob to mark the group.  
@@ -40,4 +41,5 @@ Many pre-defined groups exists already in the addon but can be customized with t
 * Informs you of Jed Runewatcher being present in Blackrock Spire
 
 ___
-* Made by and for Weird Vibes of Turtle Wow  
+* Made by and for Weird Vibes of Turtle Wow
+* Adjusted for &lt;Moments&gt;.
