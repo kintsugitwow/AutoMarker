@@ -85,8 +85,8 @@ addToDefaultNpcsToMark(L["Naxxramas"], "spider_entrance_right", {
   ["0xF130003E680158F6"]  = SKULL, -- Venom Stalker
   ["0xF130003E6601590E"]  = CROSS, -- Dread Creeper
   ["0xF130003E6601590F"]  = SQUARE, -- Dread Creeper
-  ["0xF130003E670158F4"]  = MOON, -- Carrion Spinner
-  ["0xF130003E670158F5"]  = TRIANGLE, -- Carrion Spinner
+  ["0xF130003E670158F4"]  = TRIANGLE, -- Carrion Spinner
+  ["0xF130003E670158F5"]  = CIRCLE, -- Carrion Spinner
   ["0xF130003E670158F3"]  = DIAMOND, -- Carrion Spinner
 })
 
@@ -94,8 +94,8 @@ addToDefaultNpcsToMark(L["Naxxramas"], "spider_entrance_left", {
   ["0xF130003E680158F7"]  = SKULL, -- Venom Stalker
   ["0xF130003E66015911"]  = CROSS, -- Dread Creeper
   ["0xF130003E66015910"]  = SQUARE, -- Dread Creeper
-  ["0xF130003E670158F9"]  = MOON, -- Carrion Spinner
-  ["0xF130003E670158FA"]  = TRIANGLE, -- Carrion Spinner
+  ["0xF130003E670158F9"]  = TRIANGLE, -- Carrion Spinner
+  ["0xF130003E670158FA"]  = CIRCLE, -- Carrion Spinner
   ["0xF130003E670158F8"]  = DIAMOND, -- Carrion Spinner
 })
 
@@ -103,15 +103,15 @@ addToDefaultNpcsToMark(L["Naxxramas"], "spider_anubrekhan_hallway", {
   ["0xF130003E68015917"]  = SKULL, -- Venom Stalker
   ["0xF130003E66015912"]  = CROSS, -- Dread Creeper
   ["0xF130003E66015913"]  = SQUARE, -- Dread Creeper
-  ["0xF130003E67015914"]  = MOON, -- Carrion Spinner
-  ["0xF130003E67015915"]  = TRIANGLE, -- Carrion Spinner
+  ["0xF130003E67015914"]  = TRIANGLE, -- Carrion Spinner
+  ["0xF130003E67015915"]  = CIRCLE, -- Carrion Spinner
   ["0xF130003E67015916"]  = DIAMOND, -- Carrion Spinner
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_anubrekhan", {
-  ["0xF130003E5401591A"]  = SKULL, -- Anub'Rekhan
-  ["0xF1300040BD04B2DF"]  = CROSS, -- Crypt Guard
-  ["0xF1300040BD04B2DE"]  = SQUARE, -- Crypt Guard
+  ["0xF130003E5401591A"]  = SQUARE, -- Anub'Rekhan
+  ["0xF1300040BD04B2DF"]  = SKULL, -- Crypt Guard
+  ["0xF1300040BD04B2DE"]  = CROSS, -- Crypt Guard
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_central_right", {
@@ -119,13 +119,13 @@ addToDefaultNpcsToMark(L["Naxxramas"], "spider_central_right", {
   ["0xF130003E67269C2D"]  = CROSS, -- Carrion Spinner
   ["0xF130003E67269C2C"]  = SQUARE, -- Carrion Spinner
   ["0xF130003E67269C2B"]  = TRIANGLE, -- Carrion Spinner
-  ["0xF130003E67269C2A"]  = DIAMOND, -- Carrion Spinner
-  ["0xF130003E670159F3"]  = MOON, -- Carrion Spinner
-  ["0xF130003E670159F4"]  = CIRCLE, -- Carrion Spinner
+  ["0xF130003E67269C2A"]  = CIRCLE, -- Carrion Spinner
+  ["0xF130003E670159F3"]  = DIAMOND, -- Carrion Spinner
+  ["0xF130003E670159F4"]  = MOON, -- Carrion Spinner
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_central_patrol", {
-  ["0xF130003E69269C0B"]  = STAR, -- Infectious Skitterer
+  ["0xF130003E69269C0B"]  = MOON, -- Infectious Skitterer
   ["0xF130003E69269C0C"]  = UNMARKED, -- Infectious Skitterer
   ["0xF130003E69269C13"]  = UNMARKED, -- Infectious Skitterer
   ["0xF130003E69269C12"]  = UNMARKED, -- Infectious Skitterer
@@ -157,76 +157,76 @@ addToDefaultNpcsToMark(L["Naxxramas"], "spider_faerlina_patrol", {
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_faerlina_left_1", {
-  ["0xF130003E6D269BFD"] = CROSS, -- Naxxramas Acolyte
-  ["0xF130003E6C269C02"] = CIRCLE,-- Naxxramas Cultistz
-  ["0xF130003E6C269BFE"] = TRIANGLE,-- Naxxramas Cultist
-  ["0xF130003E6D269C01"] = MOON, -- Naxxramas Acolyte
-  ["0xF130003E6C269BFC"] = STAR,-- Naxxramas Cultist
-  ["0xF130003E6D269BFB"] = SQUARE, -- Naxxramas Acolyte
-  ["0xF130003E6C269C00"] = DIAMOND,-- Naxxramas Cultist
-  ["0xF130003E6D269BFF"] = SKULL, -- Naxxramas Acolyte
+  ["0xF130003E6D269BFD"] = SQUARE, -- Naxxramas Acolyte
+  ["0xF130003E6C269C02"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6C269BFE"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269C01"] = SKULL, -- Naxxramas Acolyte
+  ["0xF130003E6C269BFC"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269BFB"] = CROSS, -- Naxxramas Acolyte
+  ["0xF130003E6C269C00"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269BFF"] = TRIANGLE, -- Naxxramas Acolyte
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_faerlina_left_2", {
-  ["0xF130003E6D269BFA"] = MOON, -- Naxxramas Acolyte
-  ["0xF130003E6C269BF5"] = CIRCLE, -- Naxxramas Cultist
-  ["0xF130003E6C269BF3"] = TRIANGLE,-- Naxxramas Cultist
-  ["0xF130003E6C269BF7"] = DIAMOND,-- Naxxramas Cultist
-  ["0xF130003E6D269BF8"] = SQUARE, -- Naxxramas Acolyte
-  ["0xF130003E6C269BF9"] = STAR,-- Naxxramas Cultist
-  ["0xF130003E6D269BF4"] = SKULL, -- Naxxramas Acolyte
-  ["0xF130003E6D269BF6"] = CROSS, -- Naxxramas Acolyte
+  ["0xF130003E6D269BFA"] = SKULL, -- Naxxramas Acolyte
+  ["0xF130003E6C269BF5"] = UNMARKED, -- Naxxramas Cultist
+  ["0xF130003E6C269BF3"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6C269BF7"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269BF8"] = CROSS, -- Naxxramas Acolyte
+  ["0xF130003E6C269BF9"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269BF4"] = SQUARE, -- Naxxramas Acolyte
+  ["0xF130003E6D269BF6"] = TRIANGLE, -- Naxxramas Acolyte
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_faerlina_left_3", {
-  ["0xF130003E6C269BDA"] = STAR,-- Naxxramas Cultist
-  ["0xF130003E6D269BD9"] = SQUARE, -- Naxxramas Acolyte
-  ["0xF130003E6C269BD8"] = DIAMOND,-- Naxxramas Cultist
-  ["0xF130003E6D269BD7"] = SKULL, -- Naxxramas Acolyte
-  ["0xF130003E6C269BD6"] = CIRCLE,-- Naxxramas Cultist
-  ["0xF130003E6D269BD5"] = CROSS, -- Naxxramas Acolyte
-  ["0xF130003E6D269BD4"] = MOON, -- Naxxramas Acolyte
-  ["0xF130003E6C269BD3"] = TRIANGLE,-- Naxxramas Cultist
+  ["0xF130003E6C269BDA"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269BD9"] = TRIANGLE, -- Naxxramas Acolyte
+  ["0xF130003E6C269BD8"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269BD7"] = SQUARE, -- Naxxramas Acolyte
+  ["0xF130003E6C269BD6"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269BD5"] = SKULL, -- Naxxramas Acolyte
+  ["0xF130003E6D269BD4"] = CROSS, -- Naxxramas Acolyte
+  ["0xF130003E6C269BD3"] = UNMARKED,-- Naxxramas Cultist
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_faerlina_right_1", {
-  ["0xF130003E6D269BE2"] = SQUARE, -- Naxxramas Acolyte
-  ["0xF130003E6C269BE1"] = DIAMOND,-- Naxxramas Cultist
+  ["0xF130003E6D269BE2"] = TRIANGLE, -- Naxxramas Acolyte
+  ["0xF130003E6C269BE1"] = UNMARKED,-- Naxxramas Cultist
   ["0xF130003E6D269BE0"] = CROSS, -- Naxxramas Acolyte
-  ["0xF130003E6C269BDF"] = TRIANGLE,-- Naxxramas Cultist
-  ["0xF130003E6D269BDE"] = MOON, -- Naxxramas Acolyte
-  ["0xF130003E6C269BDD"] = CIRCLE,-- Naxxramas Cultist
-  ["0xF130003E6C269BDC"] = STAR,-- Naxxramas Cultist
+  ["0xF130003E6C269BDF"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6D269BDE"] = SQUARE, -- Naxxramas Acolyte
+  ["0xF130003E6C269BDD"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6C269BDC"] = UNMARKED,-- Naxxramas Cultist
   ["0xF130003E6D269BDB"] = SKULL, -- Naxxramas Acolyte
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_faerlina_right_2", {
-  ["0xF130003E6C269BE3"] = CIRCLE,-- Naxxramas Cultist
-  ["0xF130003E6C269BE5"] = DIAMOND,-- Naxxramas Cultist
-  ["0xF130003E6C269BE7"] = STAR,-- Naxxramas Cultist
-  ["0xF130003E6C269BE9"] = TRIANGLE,-- Naxxramas Cultist
+  ["0xF130003E6C269BE3"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6C269BE5"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6C269BE7"] = UNMARKED,-- Naxxramas Cultist
+  ["0xF130003E6C269BE9"] = UNMARKED,-- Naxxramas Cultist
   ["0xF130003E6D269BE8"] = CROSS, -- Naxxramas Acolyte
   ["0xF130003E6D269BEA"] = SQUARE, -- Naxxramas Acolyte
-  ["0xF130003E6D269BE6"] = MOON, -- Naxxramas Acolyte
+  ["0xF130003E6D269BE6"] = TRIANGLE, -- Naxxramas Acolyte
   ["0xF130003E6D269BE4"] = SKULL, -- Naxxramas Acolyte
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_faerlina_right_3", {
   ["0xF130003E6D269BED"] = SQUARE, -- Naxxramas Acolyte
-  ["0xF130003E6C269BF0"] = DIAMOND, -- Naxxramas Cultist
-  ["0xF130003E6D269BF1"] = MOON, -- Naxxramas Acolyte
-  ["0xF130003E6C269BF2"] = STAR, -- Naxxramas Cultist
+  ["0xF130003E6C269BF0"] = UNMARKED, -- Naxxramas Cultist
+  ["0xF130003E6D269BF1"] = TRIANGLE, -- Naxxramas Acolyte
+  ["0xF130003E6C269BF2"] = UNMARKED, -- Naxxramas Cultist
   ["0xF130003E6D269BEB"] = SKULL, -- Naxxramas Acolyte
-  ["0xF130003E6C269BEC"] = TRIANGLE, -- Naxxramas Cultist
+  ["0xF130003E6C269BEC"] = UNMARKED, -- Naxxramas Cultist
   ["0xF130003E6D269BEF"] = CROSS, -- Naxxramas Acolyte
-  ["0xF130003E6C269BEE"] = CIRCLE, -- Naxxramas Cultist
+  ["0xF130003E6C269BEE"] = UNMARKED, -- Naxxramas Cultist
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_faerlina", {
-  ["0xF130003E510159B0"] = TRIANGLE, -- Grand Widow Faerlina
+  ["0xF130003E510159B0"] = UNMARKED, -- Grand Widow Faerlina
   ["0xF130004079276DE5"] = CROSS, -- Naxxramas Follower
   ["0xF130004079276DE6"] = SKULL, -- Naxxramas Follower
-  ["0xF13000407A276DE7"] = CIRCLE, -- Naxxramas Worshipper
+  ["0xF13000407A276DE7"] = TRIANGLE, -- Naxxramas Worshipper
   ["0xF13000407A276DE8"] = SQUARE, -- Naxxramas Worshipper
   ["0xF13000407A276DE9"] = MOON, -- Naxxramas Worshipper
   ["0xF13000407A276DEA"] = STAR, -- Naxxramas Worshipper
@@ -236,7 +236,7 @@ addToDefaultNpcsToMark(L["Naxxramas"], "spider_final", {
   ["0xF130003E66269C1A"] = CROSS, -- Dread Creeper
   ["0xF130003E66269C18"] = TRIANGLE, -- Dread Creeper
   ["0xF130003E66015A2F"] = SQUARE, -- Dread Creeper
-  ["0xF130003E66269C19"] = MOON, -- Dread Creeper
+  ["0xF130003E66269C19"] = CIRCLE, -- Dread Creeper
   ["0xF130003E6B01F3EE"] = SKULL, -- Tomb Horror
 })
 
@@ -246,34 +246,28 @@ addToDefaultNpcsToMark(L["Naxxramas"],"spider_ring_ghouls_1", {
   ["0xF13000403F269C06"] = CROSS,
 })
 
-addToDefaultNpcsToMark(L["Naxxramas"],"spider_ring_ghouls_2", {
-  ["0xF13000403F269BAE"] = SKULL,
-  ["0xF13000403F269BAD"] = SQUARE,
-  ["0xF13000403F269BAC"] = CROSS,
-})
-
-addToDefaultNpcsToMark(L["Naxxramas"], "spider_ring_pats", {
-  -- addToDefaultNpcsToMark(L["Naxxramas"], "spider_ring_acolyte_1", {
+--addToDefaultNpcsToMark(L["Naxxramas"], "spider_ring_pats", {
+  addToDefaultNpcsToMark(L["Naxxramas"], "spider_ring_acolyte_1", {
     ["0xF130003FF0015AD7"] = CROSS, -- Necropolis Acolyte
     ["0xF130003FF0015AD8"] = SKULL, -- Necropolis Acolyte
-  -- })
-  -- ["spider_ring_spiders1"] = {
-    ["0xF130004045269C07"] = CIRCLE, -- Necro Stalker
-    ["0xF130004045269C08"] = UNMARKED, -- Necro Stalker
-  -- },
-  -- ["spider_ring_spiders2"] = {
-    ["0xF130004045269C09"] = UNMARKED, -- Necro Stalker
-    ["0xF130004045269C0A"] = STAR, -- Necro Stalker
-  -- },
-  -- ["garg1"] = {
-    ["0xF13000403E269C44"] = UNMARKED, -- Plagued Gargoyle
-    ["0xF13000403E269C45"] = TRIANGLE, -- Plagued Gargoyle
-  -- },
-  -- ["garg2"] = {
-    ["0xF13000403E269C43"] = DIAMOND, -- Plagued Gargoyle
-    ["0xF13000403E015B18"] = UNMARKED, -- Plagued Gargoyle
-  -- },
-})
+  })
+  addToDefaultNpcsToMark(L["Naxxramas"], "spider_ring_spiders1", {
+    ["0xF130004045269C07"] = CROSS, -- Necro Stalker
+    ["0xF130004045269C08"] = SKULL, -- Necro Stalker
+  })
+  addToDefaultNpcsToMark(L["Naxxramas"], "spider_ring_spiders2", {
+    ["0xF130004045269C09"] = CROSS, -- Necro Stalker
+    ["0xF130004045269C0A"] = SKULL, -- Necro Stalker
+  })
+  addToDefaultNpcsToMark(L["Naxxramas"], "spider_garg1", {
+    ["0xF13000403E269C44"] = CROSS, -- Plagued Gargoyle
+    ["0xF13000403E269C45"] = SKULL, -- Plagued Gargoyle
+  })
+  addToDefaultNpcsToMark(L["Naxxramas"], "spider_garg2", {
+    ["0xF13000403E269C43"] = CROSS, -- Plagued Gargoyle
+    ["0xF13000403E015B18"] = SKULL, -- Plagued Gargoyle
+  })
+--})
 
 addToDefaultNpcsToMark(L["Naxxramas"], "spider_ring_acolyte_2", {
   ["0xF130003FF0015AD5"] = CROSS, -- Necropolis Acolyte
@@ -312,9 +306,9 @@ addToDefaultNpcsToMark(L["Naxxramas"], "military_entrance_patrol", {
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_static_1", {
   ["0xF130003F12015967"]  = SKULL, -- Deathknight
-  ["0xF130003F1C015956"]  = CROSS, -- Dark Touched Warrior
+  ["0xF130003F1C015956"]  = TRIANGLE, -- Dark Touched Warrior
   ["0xF130003F1E015955"]  = SQUARE, -- Death Touched Warrior
-  ["0xF130003F11015954"]  = MOON, -- Deathknight Captain
+  ["0xF130003F11015954"]  = CROSS, -- Deathknight Captain
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_forge_captains", {
@@ -336,29 +330,29 @@ addToDefaultNpcsToMark(L["Naxxramas"], "military_forge_constructs", {
   ["0xF130003F27015962"]  = SKULL, -- Bony Construct
   ["0xF130003F27015963"]  = CROSS, -- Bony Construct
   ["0xF130003F27015964"]  = SQUARE, -- Bony Construct
-  ["0xF130003F27015965"]  = MOON, -- Bony Construct
-  ["0xF130003F27015966"]  = TRIANGLE, -- Bony Construct
+  ["0xF130003F27015965"]  = TRIANGLE, -- Bony Construct
+  ["0xF130003F27015966"]  = CIRCLE, -- Bony Construct
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_forge_smiths", {
   ["0xF130003F4101595A"]  = SKULL, -- Skeletal Smith
   ["0xF130003F41015958"]  = CROSS, -- Skeletal Smith
   ["0xF130003F41015959"]  = SQUARE, -- Skeletal Smith
-  ["0xF130003F4101595B"]  = MOON, -- Skeletal Smith
+  ["0xF130003F4101595B"]  = TRIANGLE, -- Skeletal Smith
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_static_2", {
   ["0xF130003F1201595E"]  = SKULL, -- Deathknight
   ["0xF130003F1201595D"]  = CROSS, -- Deathknight
   ["0xF130003F1101595C"]  = SQUARE, -- Deathknight Captain
-  ["0xF130003F1101595F"]  = MOON, -- Deathknight Captain
+  ["0xF130003F1101595F"]  = TRIANGLE, -- Deathknight Captain
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_static_3", {
   ["0xF130003F1201596E"]  = SKULL, -- Deathknight
-  ["0xF130003F1C01596B"]  = CROSS, -- Dark Touched Warrior
+  ["0xF130003F1C01596B"]  = TRIANGLE, -- Dark Touched Warrior
   ["0xF130003F1D01596C"]  = SQUARE, -- Doom Touched Warrior
-  ["0xF130003F1101596D"]  = MOON, -- Deathknight Captain
+  ["0xF130003F1101596D"]  = CROSS, -- Deathknight Captain
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_upper_patrol", {
@@ -387,9 +381,9 @@ addToDefaultNpcsToMark(L["Naxxramas"], "military_static_6", {
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_static_7", {
   ["0xF130003F1201597C"]  = SKULL, -- Deathknight
-  ["0xF130003F1E01597B"]  = CROSS, -- Death Touched Warrior
+  ["0xF130003F1E01597B"]  = TRIANGLE, -- Death Touched Warrior
   ["0xF130003F1D01597E"]  = SQUARE, -- Doom Touched Warrior
-  ["0xF130003F1101597D"]  = MOON, -- Deathknight Captain
+  ["0xF130003F1101597D"]  = CROSS, -- Deathknight Captain
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_horse_duo", {
@@ -401,21 +395,21 @@ addToDefaultNpcsToMark(L["Naxxramas"], "military_horse_1", {
   ["0xF130003F2301597F"]  = SKULL, -- Deathknight Cavalier
   ["0xF130003F1E015982"]  = CROSS, -- Death Touched Warrior
   ["0xF130003F1E015981"]  = SQUARE, -- Death Touched Warrior
-  ["0xF130003F1E015989"]  = MOON, -- Death Touched Warrior
+  ["0xF130003F1E015989"]  = TRIANGLE, -- Death Touched Warrior
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_horse_2", {
   ["0xF130003F23015980"]  = SKULL, -- Deathknight Cavalier
-  ["0xF130003F1C015983"]  = CROSS, -- Dark Touched Warrior
-  ["0xF130003F1C015984"]  = SQUARE, -- Dark Touched Warrior
-  ["0xF130003F1D015985"]  = MOON, -- Doom Touched Warrior
+  ["0xF130003F1C015983"]  = SQUARE, -- Dark Touched Warrior
+  ["0xF130003F1C015984"]  = CROSS, -- Dark Touched Warrior
+  ["0xF130003F1D015985"]  = TRIANGLE, -- Doom Touched Warrior
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_horse_3", {
   ["0xF130003F23269C6C"]  = SKULL, -- Deathknight Cavalier
   ["0xF130003F1C015988"]  = CROSS, -- Dark Touched Warrior
   ["0xF130003F1A015987"]  = SQUARE, -- Risen Deathknight
-  ["0xF130003F1A015986"]  = MOON, -- Risen Deathknight
+  ["0xF130003F1A015986"]  = TRIANGLE, -- Risen Deathknight
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_horse_trio", {
@@ -428,15 +422,15 @@ addToDefaultNpcsToMark(L["Naxxramas"], "military_horse_4", {
   ["0xF130003F23015993"]  = SKULL, -- Deathknight Cavalier
   ["0xF130003F1C01598A"]  = CROSS, -- Dark Touched Warrior
   ["0xF130003F1C01598B"]  = SQUARE, -- Dark Touched Warrior
-  ["0xF130003F1D01598C"]  = MOON, -- Doom Touched Warrior
+  ["0xF130003F1D01598C"]  = TRIANGLE, -- Doom Touched Warrior
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_razuvious", {
-  ["0xF1300041A304A65F"]  = DIAMOND, -- Deathknight Understudy, left far
-  ["0xF1300041A304A660"]  = STAR, -- Deathknight Understudy, right far
-  ["0xF1300041A304A661"]  = TRIANGLE, -- Deathknight Understudy, left close
-  ["0xF1300041A304A662"]  = CIRCLE, -- Deathknight Understudy, right close
-  ["0xF130003EBD01598C"]  = SKULL, -- Instructor Razuvious
+  ["0xF1300041A304A65F"]  = TRIANGLE, -- Deathknight Understudy, left far
+  ["0xF1300041A304A660"]  = SQUARE, -- Deathknight Understudy, right far
+  ["0xF1300041A304A661"]  = CROSS, -- Deathknight Understudy, left close
+  ["0xF1300041A304A662"]  = SKULL, -- Deathknight Understudy, right close
+  ["0xF130003EBD01598C"]  = CIRCLE, -- Instructor Razuvious
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_weps_1", {
@@ -478,7 +472,7 @@ addToDefaultNpcsToMark(L["Naxxramas"], "military_gothik_shade", {
 addToDefaultNpcsToMark(L["Naxxramas"], "gothick_ring_ghouls", {
   ["0xF13000403F015B30"] = SQUARE, -- Plagued Ghoul
   ["0xF13000403F015B33"] = SKULL, -- Plagued Ghoul
-  ["0xF13000403F015B31"] = MOON, -- Plagued Ghoul
+  ["0xF13000403F015B31"] = TRIANGLE, -- Plagued Ghoul
   ["0xF13000403F015B32"] = CROSS, -- Plagued Ghoul
 })
 
@@ -490,21 +484,15 @@ addToDefaultNpcsToMark(L["Naxxramas"], "gothick_ring_horse", {
 addToDefaultNpcsToMark(L["Naxxramas"], "military_ring_acolyte_1", {
   ["0xF130003FF0015AD9"]  = SKULL, -- Necropolis Acolyte
   ["0xF130003FF0015ADA"]  = CROSS, -- Necropolis Acolyte
-  ["0xF130004043015ADB"]  = DIAMOND, -- Deathknight Vindicator
-  ["0xF13000403E015B42"]  = TRIANGLE, -- Plagued Gargoyle
+  ["0xF130004043015ADB"]  = STAR, -- Deathknight Vindicator
+  ["0xF13000403E015B42"]  = MOON, -- Plagued Gargoyle
   ["0xF13000403E269C6F"]  = UNMARKED, -- Plagued Gargoyle
+  ["0xF130004041015B38"]  = SQUARE, -- Shade of Naxxramas
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_ring_acolyte_2", {
   ["0xF130003FF0015ADE"]  = SKULL, -- Necropolis Acolyte
   ["0xF130003FF0015ADF"]  = CROSS, -- Necropolis Acolyte
-})
-
-addToDefaultNpcsToMark(L["Naxxramas"], "military_ring_ghouls1", {
-  ["0xF13000403F015B39"] = SKULL,
-  ["0xF13000403F015B3A"] = MOON,
-  ["0xF13000403F015B3B"] = SQUARE,
-  ["0xF13000403F015B3C"] = CROSS,
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_ring_acolyte_3", {
@@ -513,19 +501,19 @@ addToDefaultNpcsToMark(L["Naxxramas"], "military_ring_acolyte_3", {
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "military_ring_four_horsemen", {
-  ["0xF130003EBE015AB3"]  = SKULL, -- Highlord Mograine
-  ["0xF130003EC0015AB0"]  = CROSS, -- Thane Korth'azz
-  ["0xF130003EBF015AB2"]  = SQUARE, -- Sir Zeliak
-  ["0xF130003EC1015AB1"]  = MOON, -- Lady Blaumeux
+  ["0xF130003EBE015AB3"]  = CROSS, -- Highlord Mograine
+  ["0xF130003EC0015AB0"]  = TRIANGLE, -- Thane Korth'azz
+  ["0xF130003EBF015AB2"]  = STAR, -- Sir Zeliak
+  ["0xF130003EC1015AB1"]  = SQUARE, -- Lady Blaumeux
 })
 
 ----/////////////// PLAGUE ///////////////
 
 addToDefaultNpcsToMark(L["Naxxramas"], "plague_1", {
-  ["0xF130003F2801581F"] = CIRCLE, -- Stoneskin Gargoyle (patrol)
+  ["0xF130003F2801581F"] = SKULL, -- Stoneskin Gargoyle (patrol)
   ["0xF130003F74015811"] = SQUARE, -- Infectious Ghoul
   ["0xF130003F74015813"] = CROSS, -- Infectious Ghoul
-  ["0xF130003F74015812"] = SKULL, -- Infectious Ghoul
+  ["0xF130003F74015812"] = TRIANGLE, -- Infectious Ghoul
   ["0xF130003F73015810"] = MOON, -- Plague Slime
   ["0xF130003F7301580F"] = STAR, -- Plague Slime
 })
@@ -538,39 +526,21 @@ addToDefaultNpcsToMark(L["Naxxramas"], "plague_2", {
   ["0xF130003F74015818"] = SKULL, -- Infectious Ghoul
 })
 
-addToDefaultNpcsToMark(L["Naxxramas"], "plague_gargs1_pat", {
+addToDefaultNpcsToMark(L["Naxxramas"], "plague_gargs_1", {
   ["0xF130003F2801581E"] = STAR, -- pat
-})
-
-addToDefaultNpcsToMark(L["Naxxramas"], "plague_gargs1", {
   ["0xF130003F2801581C"] = SKULL, -- stone1_right
   ["0xF130003F2801581D"] = CROSS,
 })
 
-addToDefaultNpcsToMark(L["Naxxramas"], "plague_gargs2", {
+addToDefaultNpcsToMark(L["Naxxramas"], "plague_gargs_2", {
   ["0xF130003F28015820"] = SKULL, -- stone2_right
   ["0xF130003F28015821"] = CROSS,
 })
 
-addToDefaultNpcsToMark(L["Naxxramas"], "plague_gargs3", {
+addToDefaultNpcsToMark(L["Naxxramas"], "plague_gargs_3", {
   ["0xF130003F28015822"] = SKULL, -- stone3_right
   ["0xF130003F28015823"] = CROSS,
 })
-
-addToDefaultNpcsToMark(L["Naxxramas"], "plague_ring_ghouls1", {
-  ["0xF13000403F015C0C"] = SKULL,
-  ["0xF13000403F015C0A"] = CROSS,
-  ["0xF13000403F015C0D"] = SQUARE,
-  ["0xF13000403F015C0B"] = MOON,
-})
-
-addToDefaultNpcsToMark(L["Naxxramas"], "plague_ring_ghouls2", {
-  ["0xF13000403F015C0F"] = SKULL,
-  ["0xF13000403F015C10"] = CROSS,
-  ["0xF13000403F015C11"] = SQUARE,
-  ["0xF13000403F015C0E"] = MOON,
-})
-
 
 ----/////////////// CONSTRUCT ///////////////
 
@@ -578,11 +548,11 @@ addToDefaultNpcsToMark(L["Naxxramas"], "construct_entrance", {
   ["0xF130003E910158C7"]  = SKULL, -- Patchwork Golem
   ["0xF130003E910158C6"]  = CROSS, -- Patchwork Golem
   ["0xF130003E910158C5"]  = SQUARE, -- Patchwork Golem
-  ["0xF130003E910158C8"]  = MOON, -- Patchwork Golem
+  ["0xF130003E910158C8"]  = TRIANGLE, -- Patchwork Golem
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_entrance_patrol", {
-  ["0xF130003E920158CD"]  = TRIANGLE, -- Bile Retcher
+  ["0xF130003E920158CD"]  = MOON, -- Bile Retcher
   ["0xF130003E920158CE"]  = DIAMOND, -- Bile Retcher
   ["0xF130003E9D015A90"]  = CIRCLE, -- Sludge Belcher
   ["0xF130003E9D015A91"]  = STAR, -- Sludge Belcher
@@ -601,64 +571,64 @@ addToDefaultNpcsToMark(L["Naxxramas"], "construct_central_right", {
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_central", {
-  ["0xF130003E910158D8"]  = SKULL, -- Patchwork Golem
-  ["0xF130003E910158D7"]  = CROSS, -- Patchwork Golem
-  ["0xF130003E910158D6"]  = SQUARE, -- Patchwork Golem
-  ["0xF130003E910158D9"]  = MOON, -- Patchwork Golem
+  ["0xF130003E910158D8"]  = SQUARE, -- Patchwork Golem
+  ["0xF130003E910158D7"]  = TRIANGLE, -- Patchwork Golem
+  ["0xF130003E910158D6"]  = CROSS, -- Patchwork Golem
+  ["0xF130003E910158D9"]  = SKULL, -- Patchwork Golem
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_patchwerk_patrol", {
   ["0xF130003E92015A93"]  = SKULL, -- Bile Retcher
-  ["0xF130003E92015A8E"]  = TRIANGLE, -- Bile Retcher
-  ["0xF130003E9D015A92"]  = CIRCLE, -- Sludge Belcher
+  ["0xF130003E92015A8E"]  = DIAMOND, -- Bile Retcher
+  ["0xF130003E9D015A92"]  = MOON, -- Sludge Belcher
   ["0xF130003E92015A8F"]  = STAR, -- Bile Retcher
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_scientist_1", {
   ["0xF130003E95269C46"] = SKULL, -- Living Monstrosity
-  ["0xF130003E94269C4B"] = MOON, -- Mad Scientist
+  ["0xF130003E94269C4B"] = TRIANGLE, -- Mad Scientist
   ["0xF130003E94269C4C"] = SQUARE, -- Mad Scientist
   ["0xF130003E94269C4D"] = CROSS, -- Mad Scientist
-  ["0xF130003E94269C4E"] = DIAMOND, -- Mad Scientist
+  ["0xF130003E94269C4E"] = CIRCLE, -- Mad Scientist
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_scientist_2", {
   ["0xF130003E95269C4F"] = SKULL, -- Living Monstrosity
-  ["0xF130003E94015AA1"] = MOON, -- Mad Scientist
+  ["0xF130003E94015AA1"] = TRIANGLE, -- Mad Scientist
   ["0xF130003E94015AA0"] = SQUARE, -- Mad Scientist
   ["0xF130003E94015A9F"] = CROSS, -- Mad Scientist
-  ["0xF130003E94015A9E"] = DIAMOND, -- Mad Scientist
+  ["0xF130003E94015A9E"] = CIRCLE, -- Mad Scientist
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_patchwerk", {
   ["0xF130003E91015A96"]  = SKULL, -- Patchwork Golem
   ["0xF130003E91015A94"]  = CROSS, -- Patchwork Golem
   ["0xF130003E91015A97"]  = SQUARE, -- Patchwork Golem
-  ["0xF130003E91015A95"]  = MOON, -- Patchwork Golem
+  ["0xF130003E91015A95"]  = TRIANGLE, -- Patchwork Golem
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_scientist_3", {
   ["0xF130003E95269C54"] = SKULL, -- Living Monstrosity
-  ["0xF130003E94269C5C"] = MOON, -- Mad Scientist
+  ["0xF130003E94269C5C"] = TRIANGLE, -- Mad Scientist
   ["0xF130003E94269C5B"] = SQUARE, -- Mad Scientist
   ["0xF130003E94269C59"] = CROSS, -- Mad Scientist
-  ["0xF130003E94269C5A"] = DIAMOND, -- Mad Scientist
+  ["0xF130003E94269C5A"] = CIRCLE, -- Mad Scientist
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_scientist_4", {
   ["0xF130003E95269C5D"]  = SKULL, -- Living Monstrosity
-  ["0xF130003E94269C61"]  = MOON, -- Mad Scientist
+  ["0xF130003E94269C61"]  = TRIANGLE, -- Mad Scientist
   ["0xF130003E94269C60"]  = SQUARE, -- Mad Scientist
   ["0xF130003E94269C5F"]  = CROSS, -- Mad Scientist
-  ["0xF130003E94269C5E"]  = DIAMOND, -- Mad Scientist
+  ["0xF130003E94269C5E"]  = CIRCLE, -- Mad Scientist
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_scientist_5", {
   ["0xF130003E95269C66"] = SKULL, -- Living Monstrosity
-  ["0xF130003E94015A85"] = MOON, -- Mad Scientist
+  ["0xF130003E94015A85"] = TRIANGLE, -- Mad Scientist
   ["0xF130003E94015A86"] = SQUARE, -- Mad Scientist
   ["0xF130003E94015A87"] = CROSS, -- Mad Scientist
-  ["0xF130003E94015A88"] = DIAMOND, -- Mad Scientist
+  ["0xF130003E94015A88"] = CIRCLE, -- Mad Scientist
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_grobb_entrance", {
@@ -672,9 +642,9 @@ addToDefaultNpcsToMark(L["Naxxramas"], "construct_grobb_left", {
 })
 
 addToDefaultNpcsToMark(L["Naxxramas"], "construct_grobb_far", {
-  ["0xF130003E990158ED"]  = SKULL, -- Stitched Spewer
+  ["0xF130003E990158ED"]  = SQUARE, -- Stitched Spewer
   ["0xF130003E99269D08"]  = CROSS, -- Stitched Spewer -- is this changing weekly?
-  ["0xF130003E990158EE"]  = SQUARE, -- Stitched Spewer
+  ["0xF130003E990158EE"]  = SKULL, -- Stitched Spewer
 })
 
 --/////////////// AQ40 ///////////////
@@ -682,28 +652,29 @@ addToDefaultNpcsToMark(L["Naxxramas"], "construct_grobb_far", {
 defaultNpcsToMark[L["Ahn'Qiraj"]] = {}
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_1", {
-  ["0xF130003BA0015613"]  = SKULL, -- Anubisath Sentinel
-  ["0xF130003BA0015610"]  = MOON, -- Anubisath Sentinel
+  ["0xF130003BA0015613"]  = MOON, -- Anubisath Sentinel
+  ["0xF130003BA0015610"]  = TRIANGLE, -- Anubisath Sentinel
   ["0xF130003BA0015611"]  = SQUARE, -- Anubisath Sentinel
-  ["0xF130003BA0015612"]  = CROSS, -- Anubisath Sentinel
+  ["0xF130003BA0015612"]  = STAR, -- Anubisath Sentinel
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_2", {
-  ["0xF130003BA001560C"]  = SKULL, -- Anubisath Sentinel
-  ["0xF130003BA001560D"]  = CROSS, -- Anubisath Sentinel
-  ["0xF130003BA001560F"]  = MOON, -- Anubisath Sentinel
-  ["0xF130003BA001560E"]  = SQUARE, -- Anubisath Sentinel
+  ["0xF130003BA001560C"]  = MOON, -- Anubisath Sentinel
+  ["0xF130003BA001560D"]  = TRIANGLE, -- Anubisath Sentinel
+  ["0xF130003BA001560F"]  = SQUARE, -- Anubisath Sentinel
+  ["0xF130003BA001560E"]  = STAR, -- Anubisath Sentinel
 })
+
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "entrance_patrols", {
-  ["0xF130003B9E130799"] = STAR, -- Obsidian Eradicator
-  ["0xF130003B9E01580A"] = TRIANGLE, -- Obsidian Eradicator
+  ["0xF130003B9E130799"] = CROSS, -- Obsidian Eradicator
+  ["0xF130003B9E01580A"] = CIRCLE, -- Obsidian Eradicator
   ["0xF130003B9E13079A"] = DIAMOND, -- Obsidian Eradicator
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "skeram", {
-  ["0xF130003B9F01580B"]  = SQUARE, -- Skeram
-  ["0xF130003B9F04A65A"]  = CROSS, -- Clone
-  ["0xF130003B9F04A659"]  = SKULL, -- Clone
+  ["0xF130003B9F01580B"] = SQUARE, -- Skeram
+  ["0xF130003B9F04A65A"] = CROSS, -- Clone
+  ["0xF130003B9F04A659"] = SKULL, -- Clone
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "brainwasher_1", {
@@ -713,13 +684,13 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "brainwasher_1", {
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "warrior_1", {
-  ["0xF130003B7E01567A"] = TRIANGLE, -- Vekniss Warrior
-  ["0xF130003B7E015679"] = UNMARKED, -- Vekniss Warrior
-  ["0xF130003B7E015678"] = UNMARKED -- Vekniss Warrior
+  ["0xF130003B7E01567A"] = SQUARE, -- Vekniss Warrior
+  ["0xF130003B7E015679"] = SKULL, -- Vekniss Warrior
+  ["0xF130003B7E015678"] = CROSS, -- Vekniss Warrior
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "brainwasher_2", {
-  ["0xF130003B81015630"]  = MOON, -- Vekniss Guardian
+  ["0xF130003B81015630"]  = TRIANGLE, -- Vekniss Guardian
   ["0xF130003B8101562F"]  = SQUARE, -- Vekniss Guardian
   ["0xF130003B81015677"]  = CROSS, -- Vekniss Guardian
   ["0xF130003B8F01562E"]  = SKULL, -- Qiraji Brainwasher
@@ -728,13 +699,13 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "brainwasher_2", {
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "brainwasher_left", {
   ["0xF130003B8101563A"]  = SQUARE, -- Vekniss Guardian
   ["0xF130003B8F015636"]  = CROSS, -- Qiraji Brainwasher
-  ["0xF130003B81015639"]  = MOON, -- Vekniss Guardian
+  ["0xF130003B81015639"]  = CIRCLE, -- Vekniss Guardian
   ["0xF130003B81015638"]  = TRIANGLE, -- Vekniss Guardian
   ["0xF130003B8F015637"]  = SKULL, -- Qiraji Brainwasher
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "brainwasher_right", {
-  ["0xF130003B8101563C"]  = MOON, -- Vekniss Guardian
+  ["0xF130003B8101563C"]  = CIRCLE, -- Vekniss Guardian
   ["0xF130003B8F015634"]  = SKULL, -- Qiraji Brainwasher
   ["0xF130003B8101563D"]  = TRIANGLE, -- Vekniss Guardian
   ["0xF130003B8101563B"]  = SQUARE, -- Vekniss Guardian
@@ -742,9 +713,9 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "brainwasher_right", {
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "warrior_2", {
-  ["0xF130003B7E049CA2"]  = STAR, -- Vekniss Warrior
-  ["0xF130003B7E049CA4"]  = UNMARKED, -- Vekniss Warrior
-  ["0xF130003B7E049CA3"]  = UNMARKED, -- Vekniss Warrior
+  ["0xF130003B7E049CA2"]  = SQUARE, -- Vekniss Warrior
+  ["0xF130003B7E049CA4"]  = CROSS, -- Vekniss Warrior
+  ["0xF130003B7E049CA3"]  = SKULL, -- Vekniss Warrior
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_1", {
@@ -752,7 +723,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_1", {
   ["0xF130003B81015645"]  = DIAMOND, -- Vekniss Guardian
   ["0xF130003B8113079F"]  = CROSS, -- Vekniss Guardian
   ["0xF130003B81015642"]  = SKULL, -- Vekniss Guardian
-  ["0xF130003B81015643"]  = MOON, -- Vekniss Guardian
+  ["0xF130003B81015643"]  = CIRCLE, -- Vekniss Guardian
   ["0xF130003B81015641"]  = TRIANGLE, -- Vekniss Guardian
 })
 
@@ -760,7 +731,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_2", {
   ["0xF130003B81015648"]  = CROSS, -- Vekniss Guardian
   ["0xF130003B81015649"]  = TRIANGLE, -- Vekniss Guardian
   ["0xF130003B81015647"]  = SQUARE, -- Vekniss Guardian
-  ["0xF130003B8101564A"]  = MOON, -- Vekniss Guardian
+  ["0xF130003B8101564A"]  = CIRCLE, -- Vekniss Guardian
   ["0xF130003B81015646"]  = DIAMOND, -- Vekniss Guardian
   ["0xF130003B8101564B"]  = SKULL, -- Vekniss Guardian
 })
@@ -771,7 +742,7 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_3", {
   ["0xF130003B8101564C"]  = CROSS, -- Vekniss Guardian
   ["0xF130003B81015650"]  = DIAMOND, -- Vekniss Guardian
   ["0xF130003B8101564D"]  = TRIANGLE, -- Vekniss Guardian
-  ["0xF130003B81015651"]  = MOON, -- Vekniss Guardian
+  ["0xF130003B81015651"]  = CIRCLE, -- Vekniss Guardian
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_4", {
@@ -779,66 +750,143 @@ addToDefaultNpcsToMark(L["Ahn'Qiraj"], "guardian_4", {
   ["0xF130003B81015657"]  = CROSS, -- Vekniss Guardian
   ["0xF130003B8101565A"]  = DIAMOND, -- Vekniss Guardian
   ["0xF130003B81015658"]  = SQUARE, -- Vekniss Guardian
-  ["0xF130003B8101565C"]  = MOON, -- Vekniss Guardian
+  ["0xF130003B8101565C"]  = CIRCLE, -- Vekniss Guardian
   ["0xF130003B81015659"]  = SKULL, -- Vekniss Guardian
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "sartura", {
   ["0xF130003E70015662"]  = CROSS, -- Sartura's Royal Guard
   ["0xF130003E70015661"]  = SQUARE, -- Sartura's Royal Guard
-  ["0xF130003E70015663"]  = MOON, -- Sartura's Royal Guard
-  ["0xF130003C9C015660"]  = SKULL, -- Battleguard Sartura
+  ["0xF130003E70015663"]  = SKULL, -- Sartura's Royal Guard
+  ["0xF130003C9C015660"]  = TRIANGLE, -- Battleguard Sartura
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "soldiers", {
   ["0xF130003B7D015762"]  = SKULL, -- Vekniss Soldier
   ["0xF130003B7D01575D"]  = TRIANGLE, -- Vekniss Soldier
   ["0xF130003B7D01575F"]  = SQUARE, -- Vekniss Soldier
-  ["0xF130003B7D015760"]  = CROSS, -- Vekniss Soldier
-  ["0xF130003B7D01575E"]  = MOON, -- Vekniss Soldier
+  ["0xF130003B7D015760"]  = CIRCLE, -- Vekniss Soldier
+  ["0xF130003B7D01575E"]  = CROSS, -- Vekniss Soldier
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "scorpions", {
   ["0xF130003B88015798"]  = SKULL, -- Vekniss Hive Crawler
   ["0xF130003B88015799"]  = CROSS, -- Vekniss Hive Crawler
-  ["0xF130003B881307A3"]  = MOON, -- Vekniss Hive Crawler
+  ["0xF130003B881307A3"]  = TRIANGLE, -- Vekniss Hive Crawler
   ["0xF130003B881307A4"]  = SQUARE, -- Vekniss Hive Crawler
-})
-
-addToDefaultNpcsToMark(L["Ahn'Qiraj"], "scorpions2", {
-  ["0xF130003B8801578E"]  = SKULL, -- Vekniss Hive Crawler
-  ["0xF130003B8801578F"]  = CROSS, -- Vekniss Hive Crawler
+  ["0xF130003B8801578F"]  = DIAMOND, -- Vekniss Hive Crawler
+  ["0xF130003B8801578E"]  = CIRCLE, -- Vekniss Hive Crawler
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "lashers", {
-  ["0xF130003B830157CD"]  = CIRCLE, -- Vekniss Stinger
-  ["0xF130003B910157BF"]  = MOON, -- Qiraji Lasher
+  ["0xF130003B910157BF"]  = SKULL, -- Qiraji Lasher
   ["0xF130003B910157C3"]  = CROSS, -- Qiraji Lasher
+  ["0xF130003B910157C2"]  = SQUARE, -- Qiraji Lasher
+  ["0xF130003B910157C8"]  = TRIANGLE, -- Qiraji Lasher
+  ["0xF130003B910157BC"]  = CIRCLE, -- Qiraji Lasher
   ["0xF130003B910157C0"]  = UNMARKED, -- Vekniss Wasp
   ["0xF130003B910157C1"]  = UNMARKED, -- Vekniss Wasp
-  ["0xF130003B910157C2"]  = SQUARE, -- Qiraji Lasher
-  ["0xF130003B910157C8"]  = SKULL, -- Qiraji Lasher
-  ["0xF130003B910157BC"]  = TRIANGLE, -- Qiraji Lasher
-  ["0xF130003B830157B6"]  = DIAMOND, -- Vekniss Stinger
+  ["0xF130003B830157B6"]  = UNMARKED, -- Vekniss Stinger
+  ["0xF130003B830157CD"]  = UNMARKED, -- Vekniss Stinger
 })
 
 addToDefaultNpcsToMark(L["Ahn'Qiraj"], "defenders", {
   ["0xF130003BAD0157CF"] = SKULL, -- Anubisath Defender
   ["0xF130003BAD0157D1"] = CROSS, -- Anubisath Defender
   ["0xF130003BAD0157D2"] = SQUARE, -- Anubisath Defender
-  ["0xF130003BAD0157D0"] = MOON, -- Anubisath Defender
-  ["0xF130003BAD0157D3"] = TRIANGLE -- Anubisath Defender
+  ["0xF130003BAD0157D0"] = TRIANGLE, -- Anubisath Defender
+  ["0xF130003BAD0157D3"] = CIRCLE, -- Anubisath Defender
 })
 
-addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champions", {
-  ["0xF130003B940157E7"] = SQUARE, -- Qiraji Champion
-  ["0xF130003B940157E5"] = DIAMOND, -- Qiraji Champion
-  ["0xF130003B940157E6"] = CIRCLE, -- Qiraji Champion
-  ["0xF130003B940157F9"] = CROSS, -- Qiraji Champion
-  ["0xF130003B940157E4"] = MOON, -- Qiraji Champion
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champion_1", {
+  ["0xF130003B8E016E46"] = SKULL, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E47"] = CROSS, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E48"] = SQUARE, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E49"] = TRIANGLE, -- Qiraji Slayer/Mindslayer
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champion_2", {
+  ["0xF130003B92016E52"] = SKULL, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E53"] = CROSS, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E54"] = SQUARE, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E55"] = TRIANGLE, -- Qiraji Slayer/Mindslayer
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champion_3", {
+  ["0xF130003B8E016E4F"] = SKULL, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E51"] = CROSS, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E50"] = SQUARE, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E4A"] = TRIANGLE, -- Qiraji Slayer/Mindslayer
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champion_4", {
+  ["0xF130003B92016E64"] = SKULL, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E65"] = CROSS, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E66"] = SQUARE, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E67"] = TRIANGLE, -- Qiraji Slayer/Mindslayer
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champion_5", {
+  ["0xF130003B8E016E60"] = SKULL, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E61"] = CROSS, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E5A"] = SQUARE, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E5B"] = TRIANGLE, -- Qiraji Slayer/Mindslayer
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champion_6", {
+  ["0xF130003B8E016E6E"] = SKULL, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E6F"] = CROSS, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E71"] = SQUARE, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E6C"] = TRIANGLE, -- Qiraji Slayer/Mindslayer
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champion_7", {
+  ["0xF130003B92016E72"] = SKULL, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E74"] = CROSS, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E77"] = SQUARE, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E79"] = TRIANGLE, -- Qiraji Slayer/Mindslayer
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champion_8", {
+  ["0xF130003B92016E7C"] = SKULL, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B92016E7D"] = CROSS, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E7E"] = SQUARE, -- Qiraji Slayer/Mindslayer
+  ["0xF130003B8E016E7F"] = TRIANGLE, -- Qiraji Slayer/Mindslayer
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "champions_skip", {
+  ["0xF130003B940157F9"] = SKULL, -- Qiraji Champion
+  ["0xF130003B940157E7"] = CROSS, -- Qiraji Champion
+  ["0xF130003B940157E4"] = SQUARE, -- Qiraji Champion
   ["0xF130003B940157FA"] = TRIANGLE, -- Qiraji Champion
-  ["0xF130003B940157E3"] = SKULL, -- Qiraji Champion
+  ["0xF130003B940157E5"] = CIRCLE, -- Qiraji Champion
+  ["0xF130003B940157E3"] = DIAMOND, -- Qiraji Champion
+  ["0xF130003B940157E6"] = MOON, -- Qiraji Champion
   ["0xF130003B940157DE"] = STAR, -- Qiraji Champion
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "warder_nullifier_1", {
+  ["0xF130003BD00157DB"] = SKULL, -- Obsidian Nullifier
+  ["0xF130003BCF0157D4"] = SQUARE, -- Anubisath Warder
+  ["0xF130003BD00157D8"] = CROSS, -- Obsidian Nullifier
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "warder_nullifier_2", {
+  ["0xF130003BD00157D6"] = SKULL, -- Obsidian Nullifier
+  ["0xF130003BCF0157D5"] = SQUARE, -- Anubisath Warder
+  ["0xF130003BD00157D7"] = CROSS, -- Obsidian Nullifier
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "warder_nullifier_3", {
+  ["0xF130003BCF0157FF"] = SQUARE, -- Anubisath Warder
+  ["0xF130003BD00157DA"] = CROSS, -- Obsidian Nullifier
+  ["0xF130003BD00157DC"] = SKULL, -- Obsidian Nullifier
+})
+
+addToDefaultNpcsToMark(L["Ahn'Qiraj"], "warder_nullifier_4", {
+  ["0xF130003BD00157DD"] = CROSS, -- Obsidian Nullifier
+  ["0xF130003BCF015800"] = SQUARE, -- Anubisath Warder
+  ["0xF130003BD00157D9"] = SKULL, -- Obsidian Nullifier
 })
 
 --/////////////// ZG ///////////////
@@ -1244,9 +1292,9 @@ local errenius = "0xF13000ED4B2739FA"
 local errenius_mark = CIRCLE
 
 addToDefaultNpcsToMark(L["Emerald Sanctum"], "entrance", {
-  ["0xF13000ED482739F2"] = SQUARE, -- sancutum wyrm pat
+  ["0xF13000ED482739F2"] = DIAMOND, -- sancutum wyrm pat
   ["0xF13000ED4A273A45"] = MOON, -- sancutum scalebane pat
-  ["0xF13000ED4A273A43"] = TRIANGLE, -- sancutum scalebane pat
+  ["0xF13000ED4A273A43"] = STAR, -- sancutum scalebane pat
 
   -- dreamer_pack_left_1
   ["0xF13000ED462739E2"] = UNMARKED, -- sanctum dreamer, left
@@ -1294,10 +1342,10 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "dreamer_pack_left_2", {
 
 addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_left_1", {
   ["0xF13000ED47273A1C"] = SQUARE, -- sanctum dragonkin
-  ["0xF13000ED4A273A1A"] = MOON, -- sanctum scalebane
+  ["0xF13000ED4A273A1A"] = TRIANGLE, -- sanctum scalebane
   ["0xF13000ED49273A18"] = CROSS, -- sanctum wyrmkin
   ["0xF13000EF1C275495"] = SKULL, -- sanctum supressor
-  ["0xF13000ED47273A1E"] = STAR, -- sanctum dragonkin
+  ["0xF13000ED47273A1E"] = CIRCLE, -- sanctum dragonkin
 
   [errenius] = errenius_mark, -- increase chance of spotting him early
 })
@@ -1306,7 +1354,7 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_left_2", {
   ["0xF13000ED46273A26"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED46273A1F"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED49273A25"] = SKULL, -- sanctum wyrmkin
-  ["0xF13000ED49273A24"] = STAR, -- sanctum wyrmkin
+  ["0xF13000ED49273A24"] = SQUARE, -- sanctum wyrmkin
   ["0xF13000ED46273A20"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED46273A27"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED48273A19"] = CROSS, -- sanctum wrym
@@ -1335,7 +1383,7 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_left_3", {
   ["0xF13000ED46273A59"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED4A273A48"] = CROSS, -- sanctum scalebane
   ["0xF13000ED4A273A49"] = SKULL, -- sanctum scalebane
-  ["0xF13000ED49273A47"] = STAR, -- sanctum wyrmkin -- ??
+  ["0xF13000ED49273A47"] = TRIANGLE, -- sanctum wyrmkin -- ??
   ["0xF13000ED47273A1C"] = SQUARE, -- sanctum dragonkin
 
   [errenius] = errenius_mark, -- increase chance of spotting him early
@@ -1364,7 +1412,7 @@ addToDefaultNpcsToMark(L["Emerald Sanctum"], "wyrmkin_pack_right_3", {
   ["0xF13000ED462754A1"] = UNMARKED, -- sanctum dreamer
   ["0xF13000ED462754A2"] = UNMARKED, -- sanctum dreamer
   ["0xF13000EF1C275499"] = SKULL, -- sanctum supressor
-  ["0xF13000ED4727549C"] = STAR, -- sanctum dragonkin
+  ["0xF13000ED4727549C"] = TRIANGLE, -- sanctum dragonkin
   ["0xF13000ED4A27549D"] = CROSS, -- sanctum scalebane
   ["0xF13000ED4A27549B"] = SQUARE, -- sanctum scalebane
 })
@@ -1411,6 +1459,12 @@ addToDefaultNpcsToMark(L["Molten Core"], "imp_surgers", {
 addToDefaultNpcsToMark(L["Molten Core"], "giants3", {
   ["0xF130002D8A00DD83"] = CROSS,
   ["0xF130002D8A00DD82"] = SKULL,
+})
+
+addToDefaultNpcsToMark(L["Molten Core"], "gehennas", {
+  ["0xF130002D8D00DDA2"] = CROSS,
+  ["0xF130002D8D00DDA3"] = SQUARE,
+  ["0xF130002FE300DDA1"] = SKULL,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "giants4", {
@@ -1486,78 +1540,6 @@ addToDefaultNpcsToMark(L["Molten Core"], "sulfuron", {
   ["0xF130002D8E00DD67"] = CROSS,
   ["0xF130002F4200DD65"] = TRIANGLE,
   ["0xF130002D8E00DD6A"] = SKULL,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "golemag_shadowforge_pack", {
-  ["0xF130002D9300DDC7"] = SKULL,
-  ["0xF130002F2C00DDAF"] = DIAMOND,
-  ["0xF130002F2C00DDC8"] = CIRCLE,
-  ["0xF130002D9200DDAE"] = CROSS,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "twin_golems", {
-  ["0xF13000FDFC278C2C"] = CROSS,
-  ["0xF13000FDFD278C2D"] = SKULL, -- this guy starts without the debuff
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_1", {
-  ["0xF13000CBB7278CD2"] = DIAMOND, -- pat
-  ["0xF13000CBB6278CD3"] = SQUARE,
-  ["0xF13000CBB8278CD4"] = CROSS,
-  ["0xF13000CBB8278CD5"] = SKULL,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_2", {
-  ["0xF13000CBB6278CDD"] = CROSS,
-  ["0xF13000CBB6278CDE"] = SKULL,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_3", {
-  ["0xF13000CBB8278CDA"] = CROSS,
-  ["0xF13000CBB8278CDB"] = SKULL,
-  ["0xF13000CBB8278CDC"] = SQUARE,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_4", {
-  ["0xF13000CBB7278CDF"] = CROSS,
-  ["0xF13000CBB6278CE0"] = SKULL,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_left_5", {
-  ["0xF13000CBB8278CC4"] = SKULL,
-  ["0xF13000CBB6278CC1"] = SQUARE,
-  ["0xF13000CBB8278CC3"] = CROSS,
-  ["0xF13000CBB6278CC2"] = MOON,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_1", {
-  ["0xF13000CBB6278CB8"] = SQUARE,
-  ["0xF13000CBB8278CB7"] = SKULL, -- blazeweaver
-  ["0xF13000CBB6278CB9"] = CROSS,
-  ["0xF13000CBB6278CB3"] = DIAMOND, -- pat
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_2", {
-  ["0xF13000CBB6278CC6"] = SKULL,
-  ["0xF13000CBB6278CC5"] = CROSS,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_3", {
-  ["0xF13000CBB7278CE3"] = SKULL,
-  ["0xF13000CBB7278CE2"] = SQUARE,
-  ["0xF13000CBB7278CE1"] = CROSS,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_4", {
-  ["0xF13000CBB6278CCB"] = CROSS,
-  ["0xF13000CBB6278CCC"] = SKULL,
-})
-
-addToDefaultNpcsToMark(L["Molten Core"], "shadowforge_right_5", {
-  ["0xF13000CBB6278CC0"] = MOON,
-  ["0xF13000CBB6278CBF"] = SQUARE,
-  ["0xF13000CBB7278CBD"] = CROSS,
-  ["0xF13000CBB7278CBE"] = SKULL,
 })
 
 addToDefaultNpcsToMark(L["Molten Core"], "domo", {
@@ -1722,8 +1704,8 @@ addToDefaultNpcsToMark(L["Ruins of Ahn'Qiraj"], "ossirian_room", {
 addToDefaultNpcsToMark(L["Blackwing Lair"], "bwl_razor", {
   ["0xF1300030930149A4"] = STAR, -- razorgore
   ["0xF13000310D0149A5"] = SKULL, -- grethok
-  ["0xF1300038780149A7"] = UNMARKED,
-  ["0xF1300038780149A6"] = UNMARKED,
+  ["0xF1300038780149A7"] = CROSS,
+  ["0xF1300038780149A6"] = SQUARE,
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "vael", {
@@ -1736,7 +1718,7 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "vael", {
   ["0xF1300036AC104DD1"] = CIRCLE,
 })
 
-addToDefaultNpcsToMark(L["Blackwing Lair"], "wrym1", {
+addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrm1", {
   ["0xF1300030B1014A2E"] = SQUARE,
   ["0xF1300030B1014A2D"] = MOON,
   ["0xF1300030B3014A27"] = STAR,
@@ -1746,7 +1728,7 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "wrym1", {
   ["0xF1300030AF014A34"] = CIRCLE,
 })
 
-addToDefaultNpcsToMark(L["Blackwing Lair"], "wrym2", {
+addToDefaultNpcsToMark(L["Blackwing Lair"], "wyrm2", {
   ["0xF1300030B1014A30"] = MOON,
   ["0xF1300030B1014A2F"] = SQUARE,
   ["0xF1300030B3014A28"] = STAR,
@@ -1760,37 +1742,37 @@ addToDefaultNpcsToMark(L["Blackwing Lair"], "supress1", {
   ["0xF1300030AA104BD1"] = CROSS, -- taskmaster
   ["0xF1300030AA104BD0"] = SQUARE, -- taskmaster
   ["0xF1300030AA104BCF"] = SKULL, -- taskmaster
-  ["0xF1300030B40BA218"] = TRIANGLE, -- hatcher
-  ["0xF1300030B40BA216"] = DIAMOND, -- hatcher
-  ["0xF1300030B40BA08B"] = STAR, -- hatcher
+  ["0xF1300030B40BA218"] = UNMARKED, -- hatcher
+  ["0xF1300030B40BA216"] = UNMARKED, -- hatcher
+  ["0xF1300030B40BA08B"] = UNMARKED, -- hatcher
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "supress1_2", {
   ["0xF1300030AA104BD5"] = CROSS, -- taskmaster
   ["0xF1300030AA104BD4"] = SQUARE, -- taskmaster
   ["0xF1300030AA104BD3"] = SKULL, -- taskmaster
-  ["0xF1300030B40BA43A"] = TRIANGLE, -- hatcher
-  ["0xF1300030B40BA3BF"] = DIAMOND, -- hatcher
-  ["0xF1300030B40BA395"] = STAR, -- hatcher
+  ["0xF1300030B40BA43A"] = UNMARKED, -- hatcher
+  ["0xF1300030B40BA3BF"] = UNMARKED, -- hatcher
+  ["0xF1300030B40BA395"] = UNMARKED, -- hatcher
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "supress2", {
   ["0xF1300030AA104BD8"] = CROSS, -- taskmaster
   ["0xF1300030AA104BD7"] = SQUARE, -- taskmaster
   ["0xF1300030AA104BD6"] = SKULL, -- taskmaster
-  ["0xF1300030B40BA441"] = TRIANGLE, -- hatcher
-  ["0xF1300030B40BA43F"] = DIAMOND, -- hatcher
-  ["0xF1300030B40BA43D"] = STAR, -- hatcher
+  ["0xF1300030B40BA632"] = UNMARKED, -- hatcher
+  ["0xF1300030B40BA630"] = UNMARKED, -- hatcher
+  ["0xF1300030B40BA62E"] = UNMARKED, -- hatcher
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "supress2_2", {
   ["0xF1300030AA104BDB"] = CROSS, -- taskmaster
   ["0xF1300030AA104BDA"] = SQUARE, -- taskmaster
   ["0xF1300030AA104BD9"] = SKULL, -- taskmaster
-  ["0xF1300030B40BA632"] = TRIANGLE, -- hatcher
-  ["0xF1300030B40BA630"] = DIAMOND, -- hatcher
-  ["0xF1300030B40BA62E"] = STAR, -- hatcher
-  ["0xF130002EF10149A3"] = CIRCLE, -- lashlayer
+  ["0xF1300030B40BA441"] = UNMARKED, -- hatcher
+  ["0xF1300030B40BA43F"] = UNMARKED, -- hatcher
+  ["0xF1300030B40BA43D"] = UNMARKED, -- hatcher
+  ["0xF130002EF10149A3"] = UNMARKED, -- lashlayer
 })
 
 addToDefaultNpcsToMark(L["Blackwing Lair"], "lab1", {
@@ -2132,7 +2114,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "moroes5", {
 
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_patrols", {
-  ["0xF13000F1F0276B43"] = CIRCLE, -- Shadowclaw Darkbringer
+  ["0xF13000F1F0276B43"] = STAR, -- Shadowclaw Darkbringer
   ["0xF13000F1F2276B2C"] = TRIANGLE, -- Shadowclaw Rager
   ["0xF13000F1ED276B19"] = DIAMOND, -- Greater Gloomwing
 })
@@ -2152,20 +2134,20 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_2", {
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_worgen_1", {
   ["0xF13000F1F1276B29"] = TRIANGLE, -- Shadowclaw Worgen
   ["0xF13000F1F1276B2B"] = SQUARE, -- Shadowclaw Worgen
-  ["0xF13000F1F1276B27"] = MOON, -- Shadowclaw Worgen
+  ["0xF13000F1F1276B27"] = CIRCLE, -- Shadowclaw Worgen
   ["0xF13000F1F0276B28"] = SKULL, -- Shadowclaw Darkbringer
   ["0xF13000F1F2276B26"] = CROSS, -- Shadowclaw Rager
   ["0xF13000F1F1276B57"] = DIAMOND, -- Shadowclaw Worgen
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_worgen_2", {
-  ["0xF13000F1F0276B33"] = DIAMOND, -- Shadowclaw Darkbringer
-  ["0xF13000F1EC276B2D"] = SQUARE, -- vampiric gloomwing
-  ["0xF13000F1ED276B2E"] = MOON, -- greater gloomwing
-  ["0xF13000F1EF276B36"] = SKULL, -- Duskfang Creeper
+  ["0xF13000F1F0276B33"] = SKULL, -- Shadowclaw Darkbringer
+  ["0xF13000F1EC276B2D"] = TRIANGLE, -- vampiric gloomwing
+  ["0xF13000F1ED276B2E"] = DIAMOND, -- greater gloomwing
+  ["0xF13000F1EF276B36"] = SQUARE, -- Duskfang Creeper
   ["0xF13000F1F2276B31"] = CROSS, -- rager
-  ["0xF13000F1ED276B2F"] = TRIANGLE, -- Greater Gloomwing
-  ["0xF13000F1F1276B30"] = UNMARKED, -- Shadowclaw Worgen
+  ["0xF13000F1ED276B2F"] = CIRCLE, -- Greater Gloomwing
+  ["0xF13000F1F1276B30"] = MOON, -- Shadowclaw Worgen
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_worker", {
@@ -2187,7 +2169,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_outer_3", {
   ["0xF13000F1F2276B41"] = SQUARE, -- Shadowclaw Rager
   ["0xF13000F1F2276B42"] = CROSS, -- Shadowclaw Rager
   ["0xF13000F1F1276B3D"] = TRIANGLE, -- Shadowclaw Worgen
-  ["0xF13000F1F1276B3E"] = MOON, -- Shadowclaw Worgen
+  ["0xF13000F1F1276B3E"] = CIRCLE, -- Shadowclaw Worgen
   ["0xF13000F1F0276B40"] = SKULL, -- Shadowclaw Darkbringer
 })
 
@@ -2200,9 +2182,9 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_gnarlmoon", {
   ["0xF13000F1F2276B51"] = TRIANGLE, -- Shadowclaw Rager
   ["0xF13000F1F0276B4F"] = CROSS, -- Shadowclaw Darkbringer
   ["0xF13000F1F1276B54"] = DIAMOND, -- Shadowclaw Worgen
-  ["0xF13000F1F2276B52"] = MOON, -- Shadowclaw Rager
+  ["0xF13000F1F2276B52"] = CIRCLE, -- Shadowclaw Rager
   ["0xF13000F1F0276B53"] = SKULL, -- Shadowclaw Darkbringer
-  ["0xF13000F1F1276B55"] = CIRCLE, -- Shadowclaw Worgen
+  ["0xF13000F1F1276B55"] = MOON, -- Shadowclaw Worgen
   ["0xF13000F1F0276B50"] = SQUARE, -- Shadowclaw Darkbringer
 })
 
@@ -2213,8 +2195,8 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_upper_demon_3", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_entrance_inner_1", {
-  ["0xF13000F1F0276B4A"] = SKULL, -- Shadowclaw Darkbringer
-  ["0xF13000F1F1276B46"] = CROSS, -- Shadowclaw Worgen
+  ["0xF13000F1F0276B4A"] = CROSS,
+  ["0xF13000F1F1276B46"] = SKULL,
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "gnarlmoon_owls", {
@@ -2227,15 +2209,15 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "gnarlmoon_owls", {
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_1", {
   ["0xF13000F1F8276B9C"] = CROSS, -- Manascale Mageweaver
   ["0xF13000F1F7276B9E"] = SKULL, -- Manascale Suppressor
-  ["0xF13000F1F6276B9B"] = SQUARE, -- Manascale Dragon Guard
+  ["0xF13000F1F6276B9B"] = TRIANGLE, -- Manascale Dragon Guard
   ["0xF13000EA54276B8A"] = UNMARKED, -- Manascale Whelp ??wrong id??
-  ["0xF13000F1F8276B9F"] = DIAMOND, -- Manascale Mageweaver
+  ["0xF13000F1F8276B9F"] = SQUARE, -- Manascale Mageweaver
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_patrols", {
   ["0xF13000F1F7276B70"] = DIAMOND, -- Manascale Suppressor
   ["0xF13000F1F6276B8C"] = STAR, -- Manascale Dragon Guard ??wrong id??
-  ["0xF13000F1F7276BA0"] = TRIANGLE, -- Manascale Suppressor
+  ["0xF13000F1F7276BA0"] = MOON, -- Manascale Suppressor
   ["0xF13000F1F9276B5F"] = CIRCLE, -- Manascale Overseer
 })
 
@@ -2313,21 +2295,21 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_8", {
   ["0xF13000F1F7276BAF"] = CROSS, -- Manascale Suppressor
   ["0xF13000F1F8276BB0"] = SQUARE, -- Manascale Mageweaver
   ["0xF13000F1F6276BB1"] = TRIANGLE, -- Manascale Dragon Guard
-  ["0xF13000F1F6276BB2"] = MOON, -- Manascale Dragon Guard
+  ["0xF13000F1F6276BB2"] = CIRCLE, -- Manascale Dragon Guard
   ["0xF13000F1F4276BAE"] = SKULL, -- Manascale Drake
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "incantagos_seekers", {
   ["0xF13000EA55278B84"] = SQUARE, -- Manascale Ley-Seeker
   ["0xF13000EA55278B83"] = CROSS, -- Manascale Ley-Seeker
-  ["0xF13000EA55278B82"] = MOON, -- Manascale Ley-Seeker
+  ["0xF13000EA55278B82"] = TRIANGLE, -- Manascale Ley-Seeker
   ["0xF13000EA55278B81"] = SKULL, -- Manascale Ley-Seeker
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_upper_1", {
   ["0xF13000F1F8276BC0"] = SQUARE, -- Manascale Mageweaver
   ["0xF13000F1F72783E5"] = SKULL, -- Manascale Suppressor
-  ["0xF13000F1F62783E9"] = MOON, -- Manascale Dragon Guard
+  ["0xF13000F1F62783E9"] = CIRCLE, -- Manascale Dragon Guard
   ["0xF13000F1F62783E7"] = TRIANGLE, -- Manascale Dragon Guard
   ["0xF13000EA54276BBE"] = UNMARKED, -- Manascale Whelp
   ["0xF13000EA54276BBF"] = UNMARKED, -- Manascale Whelp
@@ -2337,8 +2319,8 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_upper_1", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_upper_patrols", {
-  ["0xF13000F1F6276BC1"] = DIAMOND, -- Dragon Guard
-  ["0xF13000F1FE276BD6"] = CIRCLE, -- Arcane Anomaly
+  ["0xF13000F1F6276BC1"] = MOON, -- Dragon Guard
+  ["0xF13000F1FE276BD6"] = STAR, -- Arcane Anomaly
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_upper_2", {
@@ -2353,27 +2335,27 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_upper_2", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_upper_3", {
-  ["0xF13000F1FC276BCE"] = STAR, -- Unstable Arcane Elemental
+  ["0xF13000F1FC276BCE"] = DIAMOND, -- Unstable Arcane Elemental
   ["0xF13000F1F7276BCB"] = SKULL, -- Manascale Suppressor
-  ["0xF13000F1FB276BCC"] = MOON, -- Arcane Overflow
+  ["0xF13000F1FB276BCC"] = TRIANGLE, -- Arcane Overflow
   ["0xF13000F1FB276BCF"] = SQUARE, -- Arcane Overflow
   ["0xF13000F1FB276BCD"] = CROSS, -- Arcane Overflow
-  ["0xF13000F1FC2783E3"] = DIAMOND, -- Unstable Arcane Elemental
+  ["0xF13000F1FC2783E3"] = CIRCLE, -- Unstable Arcane Elemental
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_anomalus", {
   ["0xF13000F1FD276BDA"] = SKULL, -- Disrupted Arcane Elemental
   ["0xF13000F1FB276BD8"] = CROSS, -- Arcane Overflow
   ["0xF13000F1FB276BDB"] = SQUARE, -- Arcane Overflow
-  ["0xF13000F1FB2783E2"] = MOON, -- Arcane Overflow
+  ["0xF13000F1FB2783E2"] = TRIANGLE, -- Arcane Overflow
   ["0xF13000F1FC276BDC"] = DIAMOND, -- Unstable Arcane Elemental
-  ["0xF13000F1FC276BD9"] = STAR, -- Unstable Arcane Elemental
+  ["0xF13000F1FC276BD9"] = CIRCLE, -- Unstable Arcane Elemental
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_1", {
-  ["0xF13000F1FB276BE1"] = MOON, -- Arcane Overflow
+  ["0xF13000F1FB276BE1"] = CIRCLE, -- Arcane Overflow
   ["0xF13000F1FB276BDD"] = TRIANGLE, -- Arcane Overflow
-  ["0xF13000F1FE276BE0"] = DIAMOND, -- Arcane Anomaly
+  ["0xF13000F1FE276BE0"] = STAR, -- Arcane Anomaly
   ["0xF13000F1FB276BDF"] = SQUARE, -- Arcane Overflow
   ["0xF13000F1FC276BDE"] = SKULL, -- Unstable Arcane Elemental
   ["0xF13000F1FD2783E1"] = CROSS, -- Disrupted Arcane Elemental
@@ -2390,20 +2372,21 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_patrols", {
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_2", {
   ["0xF13000F204276D36"] = CROSS, -- Lingering Astrologist
   ["0xF13000F203276D37"] = SKULL, -- Lingering Arcanist
-  ["0xF13000F202276D35"] = MOON, -- Lingering Magus
+  ["0xF13000F202276D35"] = SQUARE, -- Lingering Magus
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_left", {
-  ["0xF13000F202276D38"] = STAR, -- Lingering Magus
+  ["0xF13000F202276D38"] = SKULL, -- Lingering Magus
   ["0xF13000F205276D39"] = SQUARE, -- Lingering Enchanter
-  ["0xF13000F202276D3A"] = SKULL, -- Lingering Magus
+  ["0xF13000F202276D3A"] = MOON, -- Lingering Magus
   ["0xF13000F204276D3B"] = CROSS, -- Lingering Astrologist
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_3", {
-  ["0xF13000F1FE276D4D"] = CIRCLE, -- Arcane Anomaly
+  ["0xF13000F1FE276D4D"] = STAR, -- Arcane Anomaly
   ["0xF13000F201276D61"] = SKULL, -- Karazhan Protector Golem
   ["0xF13000F201276D60"] = CROSS, -- Karazhan Protector Golem
+  ["0xF13000F1FD2783DF"] = CIRCLE, -- Disrupted Arcane Elemental
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_6", {
@@ -2411,7 +2394,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_observatory_6", {
   ["0xF13000F203276D52"] = CROSS, -- Lingering Magus
   ["0xF13000F201276D66"] = TRIANGLE, -- Karazhan Protector Golem
   ["0xF13000F202276D51"] = SKULL, -- Lingering Arcanist
-  ["0xF13000F201276D67"] = MOON, -- Karazhan Protector Golem
+  ["0xF13000F201276D67"] = CIRCLE, -- Karazhan Protector Golem
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_1", {
@@ -2429,9 +2412,9 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_2_1", {
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_2_2", {
-  ["0xF13000F200276D63"] = MOON, -- Crumbling Protector
+  ["0xF13000F200276D63"] = SQUARE, -- Crumbling Protector
   ["0xF13000F204276D2B"] = CROSS, -- Lingering Astrologist
-  ["0xF13000F205276D2C"] = SQUARE, -- Lingering Enchanter
+  ["0xF13000F205276D2C"] = MOON, -- Lingering Enchanter
   ["0xF13000F203276D2D"] = SKULL, -- Lingering Arcanist
 })
 
@@ -2470,12 +2453,12 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_chess", {
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_1", {
   ["0xF13000F203276D54"] = SKULL, -- Lingering Arcanist
   ["0xF13000F205276D55"] = SQUARE, -- Lingering Enchanter
-  ["0xF13000F202276D53"] = STAR, -- Lingering Magus
+  ["0xF13000F202276D53"] = MOON, -- Lingering Magus
   ["0xF13000F204276D56"] = CROSS, -- Lingering Astrologist
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_2", {
-  ["0xF13000F202276D57"] = STAR, -- Lingering Magus
+  ["0xF13000F202276D57"] = MOON, -- Lingering Magus
   ["0xF13000F205276D5A"] = SQUARE, -- Lingering Enchanter
   ["0xF13000F203276D5B"] = SKULL, -- Lingering Arcanist
   ["0xF13000F204276D58"] = CROSS, -- Lingering Astrologist
@@ -2484,6 +2467,15 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_2", {
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_3", {
   ["0xF13000F48F278747"] = CROSS, -- Forgotten Echo
   ["0xF13000F48F278746"] = SKULL, -- Forgotten Echo
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_4", {
+  ["0xF13000F48F27873D"] = SQUARE, -- Forgotten Echo
+  ["0xF13000F48F278745"] = SKULL, -- Forgotten Echo
+  ["0xF13000F48F278744"] = CROSS, -- Forgotten Echo
+  ["0xF13000F48F27873E"] = MOON, -- Forgotten Echo
+  ["0xF13000F48F27873B"] = TRIANGLE, -- Forgotten Echo
+  ["0xF13000F48F27873A"] = CIRCLE, -- Forgotten Echo
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_roof", {
@@ -2659,5 +2651,4 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
 })
-
 
