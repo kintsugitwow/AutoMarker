@@ -62,6 +62,12 @@ addToDefaultNpcsToMark("Orgrimmar", "org_dummies", {
   ["0xF13000C55426FE5A"] = CROSS,
 })
 
+addToDefaultNpcsToMark("Stormwind City", "sw_dummies", {
+  ["0xF13000C55326FDD1"] = SKULL,
+  ["0xF13000C55226FDD2"] = SQUARE,
+  ["0xF13000C55426FE53"] = CROSS,
+})
+
 --/////////////// Naxxramas ///////////////
 
 defaultNpcsToMark[L["Naxxramas"]] = {}
@@ -2183,6 +2189,7 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "moroes5", {
   ["0xF13000EF15274832"] = DIAMOND,
 })
 
+
 --/////////////// Kara40 ///////////////
 
 
@@ -2381,8 +2388,6 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "incantagos_seekers_2", {
   ["0xF13000F1FA276A32"] = UNMARKED, -- Ley-Watcher Incantagos
 })
 
-
-
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_library_upper_1", {
   ["0xF13000F1F72783E5"] = SKULL, -- Manascale Suppressor
   ["0xF13000F1F82783E8"] = CROSS, -- Manascale Mageweaver
@@ -2494,8 +2499,8 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_2_1", {
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_echo_pre_2_2", {
   ["0xF13000F203276D2D"] = SKULL, -- Lingering Arcanist
   ["0xF13000F204276D2B"] = CROSS, -- Lingering Astrologist
-  ["0xF13000F200276D63"] = SQUARE, -- Crumbling Protector
-  ["0xF13000F205276D2C"] = TRIANGLE, -- Lingering Enchanter
+  ["0xF13000F205276D2C"] = SQUARE, -- Lingering Enchanter
+  ["0xF13000F200276D63"] = TRIANGLE, -- Crumbling Protector
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_chess_pre_1", {
@@ -2524,10 +2529,10 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_chess", {
   ["0xF13000BF75278779"] = SKULL, -- Decaying Bishop
   ["0xF13000BF76278777"] = CROSS, -- Malfunctioning Knight
   ["0xF13000BF74278778"] = SQUARE, -- Broken Rook
-  ["0xF13000EA40276C08"] = TRIANGLE, -- Knight
-  ["0xF13000EA42276C07"] = CIRCLE, -- Rook
+  ["0xF13000EA42276C07"] = TRIANGLE, -- Rook
   ["0xF13000EA43276C06"] = DIAMOND, -- Bishop
-  ["0xF13000EA3F276C05"] = MOON, -- King
+  ["0xF13000EA40276C08"] = STAR, -- Knight
+  ["0xF13000EA3F276C05"] = MOON, -- King ??wrong id??
 })
 
 addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_foyer_1", {
@@ -2590,15 +2595,31 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "kara_upper_demon_4", {
   ["0xF13000F48E27870B"] = TRIANGLE, -- Ima'ghaol
 })
 
-addToDefaultNpcsToMark(L["The Rock of Desolation"], "darkbinders1", {
+addToDefaultNpcsToMark(L["The Rock of Desolation"], "darkbinders_1", {
   ["0xF13000F243276CCD"] = SKULL, -- Warbringer Overseer
   ["0xF13000F245276CE7"] = CROSS, -- Draenei Darkbinder
   ["0xF13000F245276CE6"] = SQUARE, -- Draenei Darkbinder
   ["0xF13000F244276C76"] = TRIANGLE, -- Outcast Souleater
 })
 
+addToDefaultNpcsToMark(L["The Rock of Desolation"], "imps_1", {
+  ["0xF13000F242276CF6"] = SKULL, -- Darkflame Imp
+  ["0xF13000F242276CF7"] = CROSS, -- Darkflame Imp
+  ["0xF13000F242276CF5"] = SQUARE, -- Darkflame Imp
+})
+
+addToDefaultNpcsToMark(L["The Rock of Desolation"], "imps_2", {
+  ["0xF13000F242276CF8"] = SKULL, -- Darkflame Imp
+  ["0xF13000F242276CFB"] = CROSS, -- Darkflame Imp
+  ["0xF13000F242276CFC"] = SQUARE, -- Darkflame Imp
+  ["0xF13000F242276CFA"] = TRIANGLE, -- Darkflame Imp
+  ["0xF13000F242276CF9"] = CIRCLE, -- Darkflame Imp
+})
+
 addToDefaultNpcsToMark(L["The Rock of Desolation"], "village_1", {
   ["0xF13000F243276CCC"] = SKULL, -- Warbringer Overseer
+  ["0xF13000F245276CCE"] = CROSS, -- Draenei Darkbinder
+  ["0xF13000F243276CD3"] = MOON, -- Warbringer Overseer
 })
 
 addToDefaultNpcsToMark(L["The Rock of Desolation"], "village_2", {
@@ -2644,6 +2665,7 @@ addToDefaultNpcsToMark(L["The Rock of Desolation"], "sanv_2", {
   ["0xF13000F246276C82"] = UNMARKED, -- Draenei Worshipper
   ["0xF13000F246276C83"] = UNMARKED, -- Draenei Worshipper
 })
+
 addToDefaultNpcsToMark(L["The Rock of Desolation"], "sanv_3", {
   ["0xF13000F245276C8E"] = SKULL, -- Draenei Darkbinder
   ["0xF13000F245276C8F"] = CROSS, -- Draenei Darkbinder
@@ -2653,7 +2675,7 @@ addToDefaultNpcsToMark(L["The Rock of Desolation"], "sanv_3", {
   ["0xF13000F246276C90"] = UNMARKED, -- Draenei Worshipper
 })
 
-addToDefaultNpcsToMark(L["The Rock of Desolation"], "sanv_3", {
+addToDefaultNpcsToMark(L["The Rock of Desolation"], "sanv_4", {
   ["0xF13000F245276C87"] = SKULL, -- Draenei Darkbinder
   ["0xF13000F245276C86"] = CROSS, -- Draenei Darkbinder
   ["0xF13000F244276C88"] = SQUARE, -- Outcast Souleater
@@ -2686,17 +2708,32 @@ addToDefaultNpcsToMark(L["The Rock of Desolation"], "rupturan_fragments", {
 })
 
 addToDefaultNpcsToMark(L["The Rock of Desolation"], "outland_patrols", {
-  ["0xF13000F240276CB1"] = DIAMOND,
-  ["0xF13000F241276D09"] = CIRCLE,
+  ["0xF13000F240276CB1"] = DIAMOND, -- ??
+  ["0xF13000F241276D09"] = CIRCLE, -- ??
 })
 
 addToDefaultNpcsToMark(L["The Rock of Desolation"], "pre_kruul_1", {
+  ["0xF13000F246276CAF"] = SKULL, -- Draenei Warshipper
+  ["0xF13000F243276CB0"] = CROSS, -- Warbringer Overseer
+  ["0xF13000F245276CAD"] = SQUARE, -- Draenei Darkbinder
+  ["0xF13000F245276CAC"] = TRIANGLE, -- Draenei Darkbinder
+  ["0xF13000F244276CAE"] = CIRCLE, -- Outcast Souleater
+  ["0xF13000F245276CAA"] = MOON, -- Draenei Darkbinder
+})
+
+addToDefaultNpcsToMark(L["The Rock of Desolation"], "pre_kruul_2", {
+  ["0xF13000F240276CB6"] = SKULL, -- Doomguard Annihilator
+  ["0xF13000F240276CB3"] = CROSS, -- Draenei Darkbinder
+  ["0xF13000F240276CB4"] = SQUARE, --- Outcast Souleater
+})
+
+addToDefaultNpcsToMark(L["The Rock of Desolation"], "pre_kruul_3", {
   ["0xF13000F240276D11"] = SKULL, -- Doomguard Annihilator
   ["0xF13000F240276D10"] = CROSS, -- Doomguard Annihilator
   ["0xF13000F243276D0F"] = SQUARE, -- Warbringer Overseer
 })
 
-addToDefaultNpcsToMark(L["The Rock of Desolation"], "pre_kruul_2", {
+addToDefaultNpcsToMark(L["The Rock of Desolation"], "pre_kruul_4", {
   ["0xF13000F23F276D12"] = SKULL, -- Dreadlord Doomseeker
   ["0xF13000F23F276D17"] = CROSS, -- Dreadlord Doomseeker
   ["0xF13000F23F276D14"] = SQUARE, -- Dreadlord Doomseeker
@@ -2709,6 +2746,7 @@ addToDefaultNpcsToMark(L["The Rock of Desolation"], "mephistroth", {
   ["0xF130016C98271234"] = SKULL, -- hellfire doomguard, fake id
   ["0xF130016C98271235"] = CROSS, -- hellfire doomguard, fake id
 })
+
 
 --/////////////// Stratholme ///////////////
 

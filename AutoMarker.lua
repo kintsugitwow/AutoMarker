@@ -358,13 +358,28 @@ local function guidToPack(id, zone)
 end
 
 function AutoMarker_MarkGroup()
+  if (not PlayerCanMark()) then
+    return
+  end
+
   local _, mouseoverGuid = UnitExists("mouseover")
+  if (mouseoverGuid and not UnitIsDead(mouseoverGuid)) then
+    local pack, packMobs = guidToPack(mouseoverGuid, GetRealZoneText())
+    if (pack and packMobs) then
+      MarkPack(packMobs or {})
+      last_pack_marked = pack
+      return
+    end
+  end
+
   local _, targetGuid = UnitExists("target")
-  targetGuid = mouseoverGuid or targetGuid
-  if targetGuid and not UnitIsDead(targetGuid) and PlayerCanMark() then
+  if (targetGuid and not UnitIsDead(targetGuid)) then
     local pack, packMobs = guidToPack(targetGuid, GetRealZoneText())
-    MarkPack(packMobs or {})
-    last_pack_marked = pack
+    if (pack and packMobs) then
+      MarkPack(packMobs or {})
+      last_pack_marked = pack
+      return
+    end
   end
 end
 
